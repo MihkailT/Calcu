@@ -6,6 +6,10 @@
 double сложение(double a, double b) {
     return a + b; // —кладываем два числа
 
+double вычитание(double a, double b) {
+    return a - b; // ¬ычитаем второе число из первого
+}
+
 int main() {
 
 };
