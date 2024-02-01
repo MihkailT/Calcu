@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cmath>
 #include<stdexcept>
+#include<Windows.h>
 
 // ‘ункции дл€ ввода и вывода
 std::pair<double, double> получить„исла() {
@@ -88,6 +89,9 @@ void тест_деление() {
 }
 
 int main() {
+
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     //  алькул€тор
     std::pair<double, double> числа = получить„исла();
     char операци€ = получитьќперацию();
