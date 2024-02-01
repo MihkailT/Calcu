@@ -10,6 +10,10 @@ double вычитание(double a, double b) {
     return a - b; // ¬ычитаем второе число из первого
 }
 
+double умножение(double a, double b) {
+    return a * b; // ”множаем два числа
+}
+
 int main() {
 
 };
